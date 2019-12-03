@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/* ========= base ========= */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;;
+    font-weight: 500;
+    color: #333333;
+    line-height: 2.0;
+}
+
+h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+ul,li,dl,dt,dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0 0 1em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    transition: .3s;
+    opacity: 0.6;
+}
+
+.content-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* ========= header ========= */
+header .content-wrapper {
+    margin-top: 50px;
+}
+
+.title {
+    margin: 0;
+    line-height: 1;
+}
+
+.header-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-sub p {
+    color: #777;
+}
+
+.header-menu ul {
+    display: flex;
+}
+
+.header-menu li {
+    margin: 0 5px;
+}
+
+.header-menu a {
+    padding: 10px;
+}
+
+.header-menu a:hover {
+    color: #c5922b;
+}
+
+/* ========= main ========== */
+
+section {
+    margin-top: 50px;
+}
+
+.section-title h2 {
+    color: #777;
+    font-size: 1.75em;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.main-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.text-left {
+    width: 10%;
+    color: #777;
+}
+
+.text-right {
+    width: 70%;
+}
+
+.text-right p {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.text-right a:hover {
+    color: #c5922b;
+}
+
+/* ========= number ========= */
+
+.number ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.number a {
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    margin-right: 10px;
+    color: #777;
+}
+
+.number1 {
+    background: #ddd;
+}
+
+.number1:hover {
+    opacity: 1;
+    cursor: auto;
+}
