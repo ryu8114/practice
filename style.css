@@ -119,6 +119,8 @@ section {
 .text-right p {
     margin-top: 20px;
     font-size: 1.1em;
+    color: #666;
+
 }
 
 .text-right a:hover {
@@ -148,3 +150,126 @@ section {
     opacity: 1;
     cursor: auto;
 }
+
+/* ========= footer ========= */
+
+.footer {
+    border-top: 1px solid #e6e6e6;
+    margin-top: 100px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile p {
+    color: #666;
+}
+
+.widget-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.widget-left {
+    width: 33%;
+}
+
+.widget-left p {
+    color: #666;
+    margin-top: 20px;
+}
+
+.widget-center ul {
+    margin-top: 20px;
+}
+
+.widget-center a {
+    color: #666;
+    border-bottom: 1px solid #ddd;
+}
+
+.widget-center a:hover {
+    color: #c5922b;
+}
+
+.widget-right ul {
+    margin-top: 20px;
+}
+
+.widget-right a {
+    color: #666;
+    border-bottom: 1px solid #ddd;
+}
+
+.widget-right a:hover {
+    color: #c5922b;
+}
+
+.profile-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.profile-top p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.profile-top div {
+    margin-right: 40px;
+}
+
+.profile-top ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-icon {
+    color: #999;
+}
+
+.search {
+    float: right;
+}
+
+.search input {
+    height: 30px;
+    width: 200px;
+    font-size: 1.25em;
+}
+
+/* ========= copy-right ========= */
+
+.copy-right {
+    border-top: 1px solid #e6e6e6;
+    margin: 100px;
+    display: flex;
+}
+
+.copy-right ul {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    margin-top: 50px;
+}
+
+.copy-right p {
+    margin-left: 20%;
+    color: #999;
+    margin-top: 50px;
+}
+
